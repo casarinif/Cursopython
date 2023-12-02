@@ -1,14 +1,8 @@
-import pandas as pd
-
-from IPython.utils import data
-
-# Inicializa o módulo Pandas e define várias opções de configuração.
-pandas.set_option('display.max_rows', None)
+def somar(num1, num2) :
+    total = num1 + num2
+    return total
 
 
-# Cria um DataFrame da lista.
-df = pd.DataFrame(data)
+total = somar (2,4)
 
-# Exibe o DataFrame.
-print(df)
-
+print(total)
